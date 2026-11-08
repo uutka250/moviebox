@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieBox</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="section">
+            <div class="logo header_home">
+                <img width="50px" height="65px" src="./images/logoText.png" alt="">
+            </div>
+        <nav>
+
+            <ul class="header_list">
+                <li class="header_item header_home selected_header">Home</li>
+                <!-- <li>Genre</li> -->
+                <li class="header_item header_movies">Movies</li>
+                <li class="header_item header_series">Series</li>
+            </ul>
+        </nav>
+        <div class="searchbox_container">
+            <input class="header_search" type="text" placeholder="Search for movies or series">
+            <div class="search_logo_container">
+                <img class="search_click" src="./images/searchicon.svg" alt="">
+                <img class="search_click_hover" src="./images/searchicon_hover.svg" alt="">
+            </div>
+            <div class="search_results hide">
+                <p>placeholder</p>
+            </div>
+        </div>
+    </header>
+
+<div class="page on" id="homepage">
+        <section class="popular_poster_container">
+        <div class="descr_container">
+            <h2 class="popular_name">placeholder</h2>
+            <div class="general_info_cont">
+                <div class="genre_cont">
+
+                </div>
+                    <div class="date_cont">
+                        <img src="./images/date_icon.svg" alt="">
+                        <p class="date_text">placeholder</p>
+                    </div>
+                    <div class="star_cont">
+                        <img src="./images/star.svg" alt="">
+                        <p class="star_text">placeholder</p>
+                    </div>
+                    <p class="media_type">
+                        placeholder
+                    </p>
+                    
+                <!-- <div class="genre_badge">placeholder</div>
+                <div class="genre_badge">placeholder</div> -->
+            </div>
+            <p class="description_text"></p>
+        </div>
+        <div class="switch_container">
+            <button class="switch_btn btn_1 selected_content"></button>
+            <button class="switch_btn btn_2"></button>
+            <button class="switch_btn btn_3"></button>
+            <button class="switch_btn btn_4"></button>
+            <button class="switch_btn btn_5"></button>
+        </div>
+    </section>
+    <section class="section most_popular_content">
+        <div class="trending_title_container">
+            <h2>Trending</h2>
+            <h2 class="view_all_btn">View all ></h2>
+        </div>
+
+        <div class="most_popular_list">
+            
+        </div>
+    </section>
+</div>
+
+<div class="page" id="allmoviespage">
+    <section class="section view_all_section">
+        
+    </section>
+</div>
+<div class="page" id="moviepage">
+    <section class="section view_movie_section">
+    </section>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
